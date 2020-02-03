@@ -1,0 +1,15 @@
+keyword_success = {}
+    success_count = 0
+    keyword_success = {}
+            success_count+=1
+    keyword_result[label]=(temp, success_count, len(files))
+    keyword_success[label]=(success_count,len(files))
+    f2.write(json.dumps(keyword_success, ensure_ascii = False))
+keyword_success = {}
+    success_count = 0
+    keyword_success = {}
+            success_count+=1
+    keyword_result[label]=(temp, success_count, len(files))
+    keyword_success[label]=(success_count,len(files))
+    f2.write(json.dumps(keyword_success, ensure_ascii = False))
+print(type(transcribe_file("/mnt/sdb/YS/success/health/비타민/c_LQXZJ-14OM0_51..wav")))
